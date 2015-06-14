@@ -2,7 +2,9 @@
   "name": "with-package",
   "version": "0.1.0",
   "description": "Run any command with package.json properties exposed as environment variables",
-  "main": "index.js",
+  "bin": {
+    "with-package": "bin/with-package.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
