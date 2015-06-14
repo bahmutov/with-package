@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/bahmutov/with-package/issues"
   },
-  "homepage": "https://github.com/bahmutov/with-package"
+  "homepage": "https://github.com/bahmutov/with-package",
+  "dependencies": {
+    "quote": "0.4.0"
+  }
 }
