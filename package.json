@@ -1,0 +1,30 @@
+{
+  "name": "with-package",
+  "version": "0.1.0",
+  "description": "Run any command with package.json properties exposed as environment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/with-package.git"
+  },
+  "keywords": [
+    "npm",
+    "script",
+    "exec",
+    "run",
+    "command",
+    "package",
+    "variables",
+    "environment",
+    "variable"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/with-package/issues"
+  },
+  "homepage": "https://github.com/bahmutov/with-package"
+}
