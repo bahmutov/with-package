@@ -6,7 +6,8 @@ describe('replace vars', function () {
 
   var pkg = {
     name: 'foo',
-    version: '1.0.0'
+    version: '1.0.0',
+    description: 'this is foo'
   };
 
   it('replaces spaced arguments', function () {
@@ -24,6 +25,13 @@ describe('replace vars', function () {
     la(result.length === 2);
     la(result[0] === 'foo');
     la(result[1] === '1.0.0');
+  });
+
+  it('replaces combined arguments', function () {
+    var result = replace(pkg, ['pkg.name@pkg.version']);
+    la(check.array(result));
+    la(result.length === 1);
+    la(result[0] === 'foo@1.0.0', 'replaced both parts', result[0]);
   });
 
 });
