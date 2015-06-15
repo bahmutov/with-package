@@ -21,6 +21,9 @@ to the command.
 
     with-package echo this is pkg.description --debug
 
+Note: some of the `package.json` variables are already exposed as environment variables,
+see [this doc](https://docs.npmjs.com/misc/scripts#package-json-vars). 
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2015
