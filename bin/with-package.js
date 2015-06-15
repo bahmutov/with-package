@@ -48,16 +48,10 @@ function escape(value) {
 }
 
 log('arguments', args);
-var replacedArgs = args.map(function (arg) {
-  if (/^pkg\./.test(arg)) {
-    var property = arg.substr(4);
-    console.log(property);
-    // return escape(primitives[property] || '');
-    return primitives[property] || '';
-  } else {
-    return arg;
-  }
-});
+
+var replaceVars = require('../src/replace-vars');
+var replacedArgs = replaceVars(primitives, args);
+
 log('replaced arguments', replacedArgs);
 
 var spawn = require('child_process').spawn;
