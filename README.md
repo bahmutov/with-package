@@ -6,6 +6,7 @@
 
 [![Build status][ci-image]][ci-url]
 [![semantic-release][semantic-image] ][semantic-url]
+[![renovate-app badge][renovate-badge]][renovate-app]
 
 Imagine you want to use variables from the `package.json` in the script commands.
 Now you can. For example, let us say you want to commit and tag the git branch
@@ -47,3 +48,5 @@ Support: if you find any problems with this module, email / tweet / open issue o
 [ci-url]: https://travis-ci.org/bahmutov/with-package
 [semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-url]: https://github.com/semantic-release/semantic-release
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
