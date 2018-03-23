@@ -1,12 +1,14 @@
 {
   "name": "with-package",
-  "version": "0.2.0",
+  "version": "0.0.0-development",
   "description": "Run any command with package.json properties exposed as environment variables",
   "bin": {
     "with-package": "bin/with-package.js"
   },
   "scripts": {
-    "test": "mocha -R spec src/*-spec.js"
+    "test": "mocha -R spec src/*-spec.js",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -36,7 +38,9 @@
   },
   "devDependencies": {
     "mocha": "2.2.5",
-    "pre-git": "0.5.1"
+    "pre-git": "0.5.1",
+    "semantic-release": "^15.1.4",
+    "travis-deploy-once": "^4.4.1"
   },
   "pre-commit": [
     "npm test",
