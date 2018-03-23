@@ -69,5 +69,6 @@ proc.stderr.on('data', function (chunk) {
 
 proc.on('close', function (code) {
   log('child process exited with code ' + code);
+  process.exitCode = code;
 });
 
