@@ -39,7 +39,7 @@
   "devDependencies": {
     "mocha": "2.5.3",
     "pre-git": "0.8.2",
-    "semantic-release": "15.1.8",
+    "semantic-release": "15.1.11",
     "travis-deploy-once": "4.4.1"
   },
   "pre-commit": [
