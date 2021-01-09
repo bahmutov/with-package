@@ -33,7 +33,7 @@
   "homepage": "https://github.com/bahmutov/with-package",
   "dependencies": {
     "check-more-types": "1.9.2",
-    "lazy-ass": "0.6.0",
+    "lazy-ass": "1.6.0",
     "quote": "0.4.0"
   },
   "devDependencies": {
